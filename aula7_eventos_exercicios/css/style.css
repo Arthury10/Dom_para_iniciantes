@@ -11,6 +11,10 @@ dl {
 	padding: 0px;
 }
 
+html.textomaior {
+	font-size: 150%;
+}
+
 img {
 	display: block;
 	max-width: 100%;
@@ -42,7 +46,7 @@ body {
 
 .menu li a {
 	display: block;
-	padding: 20px 15px;
+	padding: 10px;
 	margin-right: 10px;
 	color: #222;
 	text-decoration: none;
