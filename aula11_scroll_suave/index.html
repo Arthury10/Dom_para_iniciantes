@@ -1,20 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
-		<meta charset="UTF-8" />
+		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<title>Navegação por Tabs</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="css/style.css" />
-		<!--font-->
+		<title>Animais Fantásticos</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Playfair+Display+SC"
+			rel="stylesheet"
+		/>
+		<script>
+			document.documentElement.className += ' js'
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
 	</head>
 	<body>
-		<nav class="menu">
+		<nav class="menu js-menu">
 			<ul>
 				<li><a href="#animais">Animais</a></li>
 				<li><a href="#faq">Faq</a></li>
 				<li><a href="#contato">Contato</a></li>
-				<li><a href="http://www.origamid.com/">Dev →</a></li>
+				<li><a href="https://www.origamid.com/">Dev →</a></li>
 			</ul>
 		</nav>
 		<section class="grid-section animais" id="animais">
@@ -40,7 +46,7 @@
 				</li>
 			</ul>
 			<div class="animais-descricao js-tabcontent">
-				<section id="raposa">
+				<section>
 					<h2>Raposa</h2>
 					<p>
 						As raposas são animais mamíferos e onívoros pertencentes
@@ -52,17 +58,9 @@
 						Também apresentam como particularidade suas pupilas
 						ovais, semelhantes às pupilas verticais dos felídeos.
 					</p>
-					<p>
-						De cerca de 40 espécies reconhecidas como raposas,
-						somente 12 pertencem ao gênero Vulpes das "raposas
-						verdadeiras", do qual a raposa vermelha é a mais comum.
-					</p>
-					<p>
-						Também apresentam como particularidade suas pupilas
-						ovais, semelhantes às pupilas verticais dos felídeos.
-					</p>
 				</section>
-				<section id="esquilo">
+
+				<section>
 					<h2>Esquilo</h2>
 					<p>
 						As raposas são animais mamíferos e onívoros pertencentes
@@ -83,9 +81,18 @@
 						Também apresentam como particularidade suas pupilas
 						ovais, semelhantes às pupilas verticais dos felídeos.
 					</p>
+					<p>
+						De cerca de 40 espécies reconhecidas como raposas,
+						somente 12 pertencem ao gênero Vulpes das "raposas
+						verdadeiras", do qual a raposa vermelha é a mais comum.
+					</p>
+					<p>
+						Também apresentam como particularidade suas pupilas
+						ovais, semelhantes às pupilas verticais dos felídeos.
+					</p>
 				</section>
 				<section>
-					<h2>URSO</h2>
+					<h2>Urso</h2>
 					<p>
 						As raposas são animais mamíferos e onívoros pertencentes
 						à família Canidae. São vulpídeos de porte médio,
@@ -107,7 +114,7 @@
 					</p>
 				</section>
 				<section>
-					<h2>LOBO</h2>
+					<h2>Lobo</h2>
 					<p>
 						As raposas são animais mamíferos e onívoros pertencentes
 						à família Canidae. São vulpídeos de porte médio,
@@ -129,7 +136,7 @@
 					</p>
 				</section>
 				<section>
-					<h2>MACACO</h2>
+					<h2>Macaco</h2>
 					<p>
 						As raposas são animais mamíferos e onívoros pertencentes
 						à família Canidae. São vulpídeos de porte médio,
@@ -151,7 +158,7 @@
 					</p>
 				</section>
 				<section>
-					<h2>LEÃO</h2>
+					<h2>Leão</h2>
 					<p>
 						As raposas são animais mamíferos e onívoros pertencentes
 						à família Canidae. São vulpídeos de porte médio,
@@ -174,9 +181,10 @@
 				</section>
 			</div>
 		</section>
+
 		<section class="grid-section faq" id="faq">
 			<h1 class="titulo">FAQ</h1>
-			<dl class="faq-lista">
+			<dl class="faq-lista js-accordion">
 				<dt>Qual a idade dos animais?</dt>
 				<dd>
 					As raposas são animais mamíferos e onívoros pertencentes à
@@ -203,20 +211,24 @@
 				</dd>
 			</dl>
 		</section>
+
 		<section class="grid-section contato" id="contato">
 			<h1 class="titulo">Contato</h1>
 			<div class="mapa">
 				<img src="img/mapa.png" />
 			</div>
 			<ul class="dados">
-				<li>arthur@hotmail.com</li>
-				<li>+55 (53) 981374942</li>
-				<li>Av. Jacaranda 484</li>
+				<li>contato@origamid.com</li>
+				<li>+55 (21) 9999-9999</li>
+				<li>Rua do Conde, nº 21</li>
+				<li>Rio de Janeiro - RJ</li>
 			</ul>
 		</section>
+
 		<footer class="copy">
 			<p>Todos os direitos reservados.</p>
 		</footer>
+
 		<script src="script.js"></script>
 	</body>
 </html>
